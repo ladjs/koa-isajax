@@ -8,6 +8,15 @@ This middleware is the equivalent to [Express `req.xhr`.](http://expressjs.com/e
 ## Installation
 `$ npm install koa-isajax --save`
 
+## Options
+
+`isajax(setVary)` accepts an argument `setVary` which is a String that defaults to `'X-Requested-With'`.  If you pass `false`, then `ctx.vary(setVary)` will not be called immediately.
+
+This sets the `Vary` header so that AJAX and HTML responses on the same page do not conflict:
+
+* <https://stackoverflow.com/questions/1975416/what-is-the-function-of-the-vary-accept-http-header/1975677#1975677>
+* <https://stackoverflow.com/questions/9956255/chrome-displays-ajax-response-when-pressing-back-button/10117752#10117752>
+
 ## Example
 
 ```javascript
