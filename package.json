@@ -1,27 +1,30 @@
 {
   "name": "@ladjs/koa-isajax",
-  "version": "1.0.4",
   "description": "Middleware for koajs 2 to check if the incoming request is an Ajax request.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.4",
+  "author": "Bernat Jufré",
+  "bugs": {
+    "url": "https://github.com/behind-design/koa-isajax/issues"
   },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/behind-design/koa-isajax#readme",
+  "keywords": [
+    "ajax",
+    "koa",
+    "koajs",
+    "middleware",
+    "request",
+    "xhr"
+  ],
+  "license": "ISC",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/behind-design/koa-isajax.git"
   },
-  "keywords": [
-    "koa",
-    "koajs",
-    "middleware",
-    "ajax",
-    "xhr",
-    "request"
-  ],
-  "author": "Bernat Jufré",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/behind-design/koa-isajax/issues"
-  },
-  "homepage": "https://github.com/behind-design/koa-isajax#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
