@@ -1,7 +1,7 @@
 {
   "name": "@ladjs/koa-isajax",
   "description": "Middleware for koajs 2 to check if the incoming request is an Ajax request.",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "author": "Bernat Jufré",
   "bugs": {
     "url": "https://github.com/ladjs/koa-isajax/issues"
