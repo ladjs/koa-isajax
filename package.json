@@ -1,5 +1,5 @@
 {
-  "name": "koa-isajax",
+  "name": "@ladjs/koa-isajax",
   "version": "1.0.4",
   "description": "Middleware for koajs 2 to check if the incoming request is an Ajax request.",
   "main": "index.js",
